@@ -1,8 +1,8 @@
 /* Feature parser for skim.me
  * By Xiang Zhang @ New York University
- * Version 0.1, 03/28/2012
+ * Version 0.1, 04/10/2012
  *
- * Usage: ./dtime [method] [hindex] [scale]
+ * Usage: ./dfeat [method] [hindex] [scale]
  *       [method]: method of handling the time
  *                 0: GMT
  *                 1: Local

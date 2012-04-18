@@ -1,0 +1,17 @@
+dpre: preprocessor
+Usage: ./dproc [nItems] [iUrl] [iTime]
+        nItems: Number of items per row
+        iUrl:   Index of url in the items (starting from 0)
+        iTime:  Index of time in the items (starting from 0)
+
+dindex: index generator
+        the program reads in stdin and write to stdout
+        the output are two lists, one is hid,time_stamp (in seconds) pair
+        another is hid, host pair
+        the two lists are separated by an empty line
+        the first list is sorted w.r.t. time_stamp
+
+dsplit: data splitter for sections of data separated by empty line
+Usage: ./dsplit [section]
+       [section] is the index of section you want. Starting from 0.
+       Read from stdin, write to stdout.
